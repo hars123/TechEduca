@@ -264,6 +264,11 @@ display: flex;
  align-items: center;
  justify-content: space-between;
 
+
+}
+
+.reminder{
+
 }
 #registraion .reminder  h1{
  color: white;
@@ -604,5 +609,139 @@ footer h3 {
   font-size: 1.5rem;
   padding-right: 10px;
 }
+
+/* about */
+
+#about-container{
+ flex-direction: column-reverse;
 }
 
+#about-container .about-img{
+  width: 100%;
+  padding-right: 0px;
+  padding-top: 40px;
+}
+#about-container .about-text{
+  width: 100%;
+}
+
+#trust .trust-img{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+
+}
+#trust .trust-img img {
+ width: 60px;
+ margin: 10px 15px;
+ height: auto ;
+
+}
+
+
+
+}
+
+
+
+/* About */
+
+#abouthome{
+  background-image: linear-gradient(rgba(9,5,54,0.3),rgba(5,4,46,0.7)),url(images/back1.jpg);
+  width: 100%;
+  color: white;
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 40px;
+ }
+
+ #abouthome h2{
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+ }
+
+ #about-container{
+  display: flex;
+  align-items: center;
+  padding: 8vw 8vw 2vw 8vw;
+ }
+ #about-container .about-img{
+  width: 100%;
+  padding-right: 60px;
+
+ }
+ #about-container .about-img img{
+  width: 100%;
+
+ }
+ #about-container .about-text{
+  width: 100%;
+ 
+ }
+
+ #about-container .about-text h2{
+ 
+  color: #29303B;
+  padding-bottom: 15px;
+
+ }
+
+ #about-container .about-text p{
+  color: #686F7A;
+  font-weight: 300;
+ }
+ #about-container .about-text .about-fee{
+  display:  flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 30px;
+
+
+ }
+ #about-container .about-text .about-fee img{
+  width: 50px;
+  background-size: cover;
+  background-position: center;
+  margin-right: 20px;
+ }
+
+ #about-container .about-text .about-fee  .fe-text{
+  width: 90%;
+
+
+ }
+
+ #about-container .about-text .about-fee  .fe-text h5{
+  font-size: 16px;
+
+ }
+
+ #trust{
+  text-align: center;
+  padding: 8vw ;
+ }
+ #trust .trust-img{
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+
+ #trust .trust-img img{
+
+  width: 90px;
+
+
+ }
+ /*  */
+
+ 
